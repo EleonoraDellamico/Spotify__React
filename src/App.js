@@ -2,6 +2,7 @@ import { CssBaseline, Grid, makeStyles, ThemeProvider } from '@material-ui/core'
 import darkTheme from './theme/themeDark';
 import Home from './pages/home';
 import NavigationDrawer from './components/Navigation/index.js';
+import SearchBar from './components/SearchBar/index';
 
 const useStyle = makeStyles((theme) => ({
 	root: {
@@ -25,6 +26,7 @@ const App = () => {
 			<Grid container className={classes.root}>
 				<NavigationDrawer />
 				<div className={classes.content}>
+					<SearchBar />
 					<Home />
 				</div>
 			</Grid>
