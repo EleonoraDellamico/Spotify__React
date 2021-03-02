@@ -2,7 +2,7 @@ import { CssBaseline, Grid, makeStyles, ThemeProvider } from '@material-ui/core'
 import darkTheme from './theme/themeDark';
 import Home from './pages/home';
 import NavigationDrawer from './components/Navigation/index.js';
-import SearchBar from './components/SearchBar/index';
+import TopBar from './components/TopBar/index';
 
 const useStyle = makeStyles((theme) => ({
 	root: {
@@ -11,10 +11,15 @@ const useStyle = makeStyles((theme) => ({
 		flexDirection: 'row',
 		flexWrap: 'nowrap'
 	},
-	content: { flexGrow: 1, maxWidth: 'calc(100vw - 240px)', background: 'blue', height: '100vh' },
+	content: {
+		flexGrow: 1,
+		maxWidth: 'calc(100vw - 240px)',
+		height: '100vh'
+	},
 	drawer: {
 		width: '240px',
-		height: '100vh'
+		height: '100vh',
+		background: 'blue'
 	}
 }));
 
@@ -26,7 +31,8 @@ const App = () => {
 			<Grid container className={classes.root}>
 				<NavigationDrawer />
 				<div className={classes.content}>
-					<SearchBar />
+					<TopBar />
+					<div style={{ marginTop: '80px' }} />
 					<Home />
 				</div>
 			</Grid>
