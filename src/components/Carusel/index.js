@@ -1,5 +1,6 @@
-import classes from '*.module.css';
 import { Divider, Grid, makeStyles, Typography } from '@material-ui/core';
+import Song from '../Song/index';
+import Artist from '../Artist/index';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -37,7 +38,7 @@ const Carusel = (props) => {
 						return null;
 					}
 				})}
-				{props.data.map((item) => <h1>{item.title}</h1>)}
+				{props.data.map((item) => <h1>{item.title}</h1>)};
 			</Grid>
 		</div>
 	);

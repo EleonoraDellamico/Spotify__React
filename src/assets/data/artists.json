@@ -1,0 +1,17 @@
+[
+	{
+		"img": "https://estaticos-cdn.elperiodico.com/clip/9ce8e852-00ed-44b7-881b-df98be974b55_alta-libre-aspect-ratio_default_0.jpg",
+		"name": "Daft Punk",
+		"type": "artist"
+	},
+	{
+		"img": "https://www.hoyesarte.com/constelac10n/files/2020/01/19_m83_midnight_city-300x300.jpg",
+		"name": "m83",
+		"type": "artist"
+	},
+	{
+		"img": "https://i.ytimg.com/vi/-DSVDcw6iW8/hqdefault.jpg",
+		"name": "Electric Youth",
+		"type": "artist"
+	}
+]

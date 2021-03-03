@@ -1,0 +1,107 @@
+[
+	{
+		"id": "ksandfeurrn3j4b",
+		"name": "Save your Tears",
+		"artist": "The Weeknd",
+		"desc": "Cancion free copyright",
+		"picture": "http://www.contrareplica.mx/uploads/2021/01/05/normal/019d734a0ba720d04dc1057937d99c49.jpg",
+		"year": "2020",
+		"genre": "R&B/Soul",
+		"url": "https://www.youtube.com/watch?v=u6lihZAcy4s",
+		"type": "song",
+		"timeStamp": {
+			"createdAt": "",
+			"updatedAt": ""
+		}
+	},
+	{
+		"id": "iojfin5io345n345o",
+		"name": "Under pressure",
+		"artist": "Queen David Bowie",
+		"desc": "Cancion free copyright",
+		"picture": "https://i0.wp.com/auralcrave.com/wp-content/uploads/2018/08/0000240487.jpeg?fit=915%2C515&ssl=1",
+		"year": "1995",
+		"genre": "Rock",
+		"type": "song",
+		"url": "https://www.youtube.com/watch?v=MkQK83Tf9so",
+		"timeStamp": {
+			"createdAt": "",
+			"updatedAt": ""
+		}
+	},
+	{
+		"id": "ndosifndsioegnrep0",
+		"name": "You've got the love",
+		"artist": "Florence + The Machine",
+		"desc": "Cancion free copyright",
+		"picture": "https://i.scdn.co/image/ab67616d0000b2730672b0f8756ae2af86e8a5ce",
+		"year": "2009",
+		"genre": "Alternative",
+		"type": "song",
+		"url": "https://www.youtube.com/watch?v=PQZhN65vq9E",
+		"timeStamp": {
+			"createdAt": "",
+			"updatedAt": ""
+		}
+	},
+	{
+		"id": "onfosifnwefoindflkm4",
+		"name": "Around the World",
+		"artist": "Daft Punk",
+		"desc": "Cancion free copyright",
+		"picture": "https://estaticos-cdn.elperiodico.com/clip/9ce8e852-00ed-44b7-881b-df98be974b55_alta-libre-aspect-ratio_default_0.jpg",
+		"year": "2021",
+		"genre": "Electronic",
+		"type": "song",
+		"url": "https://www.youtube.com/watch?v=_JPa3BNi6l4",
+		"timeStamp": {
+			"createdAt": "",
+			"updatedAt": ""
+		}
+	},
+	{
+		"id": "xzncjondfwenreoint45",
+		"name": "Lights",
+		"artist": "Whales",
+		"desc": "Cancion free copyright",
+		"picture": "https://i.ytimg.com/vi/BDA_HP0eVAo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKt22VlFCiZKKlj9FFVn8rUalj2w",
+		"year": "2021",
+		"genre": "Dance y EDM",
+		"url": "https://www.youtube.com/watch?v=BDA_HP0eVAo",
+		"type": "song",
+		"timeStamp": {
+			"createdAt": "",
+			"updatedAt": ""
+		}
+	},
+	{
+		"id": "dfwqdn3o2n32o4n54o4n5435",
+		"name": "Midnight City",
+		"artist": "M83",
+		"desc": "Cancion free copyright",
+		"picture": "https://www.hoyesarte.com/constelac10n/files/2020/01/19_m83_midnight_city-300x300.jpg",
+		"year": "2011",
+		"genre": "Electronic ",
+		"url": "https://www.youtube.com/watch?v=dX3k_QDnzHE",
+		"type": "song",
+		"timeStamp": {
+			"createdAt": "",
+			"updatedAt": ""
+		}
+	},
+	{
+		"id": "rmdscmelk45m546lkm46kl",
+		"name": "A Real Hero",
+		"artist": "Electric Youth",
+		"desc": "Cancion free copyright",
+		"picture": "https://i.ytimg.com/vi/-DSVDcw6iW8/hqdefault.jpg",
+		"year": "2012",
+		"genre": "Electronic",
+		"url": "https://www.youtube.com/watch?v=6cedWvuxwbc",
+		"type": "song",
+		"timeStamp": {
+			"createdAt": "",
+			"updatedAt": ""
+		}
+	}
+]

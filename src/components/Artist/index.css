@@ -1,0 +1,12 @@
+.artist__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 24px 18px;
+}
+.artist__avatar {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 12px;
+}
