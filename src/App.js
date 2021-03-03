@@ -19,7 +19,7 @@ const useStyle = makeStyles((theme) => ({
 	drawer: {
 		width: '240px',
 		height: '100vh',
-		background: 'blue'
+		background: 'black'
 	}
 }));
 

@@ -4,13 +4,14 @@ import Artist from '../Artist/index';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		padding: '16px 22px',
+		marginLeft: '22px',
+		padding: '16px 22px 16px 0',
 		overflow: 'hidden'
 	},
 	caruselContainer: {
 		display: 'flex',
 		overflow: 'scroll',
-		height: '350px',
+		minHeight: '350px',
 		scrollbarWidth: 'none',
 		'&::-webkit-scrollbar': {
 			display: 'none'
@@ -21,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 const Carusel = (props) => {
 	const classes = useStyles();
 	return (
-		<div className="root">
+		<div className={classes.root}>
 			<Grid item xs={12}>
 				<Typography variant="h6"> {props.title}</Typography>
 			</Grid>
@@ -38,7 +39,7 @@ const Carusel = (props) => {
 						return null;
 					}
 				})}
-				{props.data.map((item) => <h1>{item.title}</h1>)};
+				{props.data.map((item) => <h1>{item.title}</h1>)}
 			</Grid>
 		</div>
 	);
