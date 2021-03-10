@@ -3,6 +3,8 @@ import darkTheme from './theme/themeDark';
 import Home from './pages/home';
 import NavigationDrawer from './components/Navigation/index.js';
 import TopBar from './components/TopBar/index';
+//import Player from "./components/Player";
+import { UserProvider } from './context/UserContext';
 
 const useStyle = makeStyles((theme) => ({
 	root: {
@@ -28,14 +30,17 @@ const App = () => {
 	return (
 		<ThemeProvider theme={darkTheme}>
 			<CssBaseline />
-			<Grid container className={classes.root}>
-				<NavigationDrawer />
-				<div className={classes.content}>
-					<TopBar />
-					<div style={{ marginTop: '80px' }} />
-					<Home />
-				</div>
-			</Grid>
+			<UserProvider>
+				<Grid container className={classes.root}>
+					<NavigationDrawer />
+					<div className={classes.content}>
+						<TopBar />
+						<div style={{ marginTop: '80px' }} />
+						<Home />
+						{/* <Player /> */}
+					</div>
+				</Grid>
+			</UserProvider>
 		</ThemeProvider>
 	);
 };

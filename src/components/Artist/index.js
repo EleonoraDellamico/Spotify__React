@@ -1,5 +1,6 @@
-import './index.css';
+import React from 'react';
 import PropTypes from 'prop-types';
+import './index.css';
 import { Avatar, Typography } from '@material-ui/core';
 
 const Artist = ({ data }) => {
@@ -12,10 +13,12 @@ const Artist = ({ data }) => {
 		</div>
 	);
 };
+
 Artist.propTypes = {
 	data: PropTypes.shape({
 		name: PropTypes.string,
 		img: PropTypes.string
 	})
 };
+
 export default Artist;
