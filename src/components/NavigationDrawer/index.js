@@ -1,9 +1,10 @@
-import { Typography, Drawer, List, ListItem, ListItemText, ListItemIcon, makeStyles, Divider } from '@material-ui/core';
-import HomeIcon from '@material-ui/icons/Home';
-import ExplorIcon from '@material-ui/icons/Explore';
-import RadioIcon from '@material-ui/icons/Radio';
+import { Divider, Drawer, List, ListItem, ListItemIcon, ListItemText, makeStyles, Typography } from '@material-ui/core';
 
-const useStyle = makeStyles((theme) => ({
+import RadioIcon from '@material-ui/icons/Radio';
+import HomeIcon from '@material-ui/icons/Home';
+import ExploreIcon from '@material-ui/icons/Explore';
+
+const useStyles = makeStyles((theme) => ({
 	drawer: {
 		width: '240px',
 		flexShrink: 0
@@ -16,45 +17,41 @@ const useStyle = makeStyles((theme) => ({
 		fontWeight: 'bold'
 	}
 }));
+
 const itemsMainList = [
 	{
 		text: 'Inicio',
 		icon: <HomeIcon />
 	},
-	{
-		text: 'Buscar',
-		icon: <ExplorIcon />
-	},
-	{
-		text: 'Radio',
-		icon: <RadioIcon />
-	}
+	{ text: 'Buscar', icon: <ExploreIcon /> },
+	{ text: 'Radio', icon: <RadioIcon /> }
 ];
+
 const NavigationDrawer = () => {
-	const classes = useStyle();
+	const classes = useStyles();
 	return (
 		<Drawer className={classes.drawer} variant="permanent" classes={{ paper: classes.drawerPaper }}>
-			<div className={classes.drawerContainer}>
+			<div className={classes.drwaerContainer}>
 				<List>
 					{itemsMainList.map((item) => (
 						<ListItem button>
-							<ListItemIcon>{item.icon}</ListItemIcon>
+							<ListItemIcon>{item.icon} </ListItemIcon>
 							<ListItemText primary={item.text} />
 						</ListItem>
 					))}
 				</List>
 				<Divider />
 				<Typography variant="body1" className={classes.titleList}>
-					TU BIBLIOTECA{' '}
+					TU BIBLIOTECA
 				</Typography>
 				<List>
 					{[
-						'especiales para tí',
+						'Especialmente para ti',
 						'Escuchad. recient.',
-						'Canciones que te gustan',
-						'Albumes',
+						'Canciones que te gu...',
+						'Álbumes',
 						'Artistas',
-						'Podcast'
+						'Podcasts'
 					].map((text) => (
 						<ListItem button>
 							<ListItemText primary={text} />

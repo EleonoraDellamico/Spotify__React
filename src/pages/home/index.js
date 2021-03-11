@@ -6,7 +6,7 @@ import artists from '../../assets/data/artists.json';
 const Home = () => {
 	return (
 		<div>
-			<Typography variant="h1">Home</Typography>
+			<Typography variant="h1" />
 			<Carusel data={artists} title="Favorite artists" />
 			<Carusel data={songs} title="Favorite songs" />
 		</div>
